@@ -39,7 +39,7 @@ F_resistive_tot = F_rolling + F_wind + F_grading + F_acceleration_cap; %total re
 
 % Calculation of power:
 P_car = F_resistive_tot * Vcar; % Power on wheels
-P_battery = P_car / (Battery_eff * Gear_diff_eff * EV_eff); % Power of battery
+P_battery = P_car / (Battery_eff * Gear_diff_eff * EV_eff) % Power of battery
 
 % End of Part 1,2
 
